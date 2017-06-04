@@ -1,0 +1,40 @@
+<!--
+  Generated template for the Present page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Present Tesne</ion-title>
+  </ion-navbar>
+  <ion-toolbar>
+<button ion-button [navPush]="homePage" icon-only color="danger">
+<ion-icon name="home"></ion-icon>
+</button></ion-toolbar>
+</ion-header>
+
+
+<ion-content padding>
+<h1 color="danger">Present Tense:</h1>
+<h1>Kinds of Present Tense</h1><br>
+*Present Indefinate Tense<br>
+*Present Continues Tense<br>
+*Present Perfect Tense<br>
+*Present Perfect continus Tense<br>
+<button ion-button [navPush]="pastindPage"  color="danger"full>
+	Present-Indefinite
+ </button>
+ <button ion-button [navPush]="presentcontiPage"  color="danger"full>
+	Present-Continuous
+ </button>
+ <button ion-button [navPush]="presentperfPage"  color="danger"full>
+	Present-Perfect
+ </button>
+ <button ion-button [navPush]="presentprfcontiPage"  color="danger"full>
+	Present-PerfectContinuous
+ </button>
+
+
+</ion-content>
